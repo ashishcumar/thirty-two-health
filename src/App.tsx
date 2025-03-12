@@ -41,8 +41,6 @@ function App() {
     obj1: ICard,
     obj2: { [key: string]: string | number | boolean }
   ) => {
-    console.log({ obj1, obj2 });
-
     if (obj1 == undefined || obj2 == undefined) return;
     const { isLiked, id, ...remainingObj1 } = obj1;
     for (let key in remainingObj1) {
@@ -57,7 +55,6 @@ function App() {
   const handleSubmit = async () => {
     try {
       const values = await form.validateFields();
-      console.log("Form Data:", values);
       if (Object.values(values).some((item) => item === undefined)) {
         messageApi.open({
           type: "error",
