@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.deleteSvg:hover {
+  color: #1890ff;
+}
+
+.editSvg:hover{
+  color: #1890ff;
+}
+
+.heartIcon:hover{
+  color: red !important;
+  fill: red !important;
+}
+
+
+input{
+  height: 40px;
+  width: 250px;
+}
