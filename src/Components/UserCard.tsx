@@ -5,7 +5,6 @@ import DeleteSvg from "../Assets/SvgComponents/DeleteSvg";
 import EmailSvg from "../Assets/SvgComponents/EmailSvg";
 import PhoneSvg from "../Assets/SvgComponents/PhoneSvg";
 import WebsiteSvg from "../Assets/SvgComponents/WebsiteSvg";
-import { HeartOutlined } from "@ant-design/icons";
 
 export interface ICard {
   id: number;

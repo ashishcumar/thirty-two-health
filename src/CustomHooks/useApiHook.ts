@@ -6,7 +6,7 @@ const useApiHook = () => {
   const [error, setError] = useState<string | null>("");
 
   const returnPromise = (delay: number) => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve(CardsJson);
       }, delay);

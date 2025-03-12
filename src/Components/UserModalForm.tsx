@@ -1,5 +1,4 @@
-import { Form, FormInstance, FormProps, Input } from "antd";
-import React from "react";
+import { Form, FormInstance, Input } from "antd";
 import { ICard } from "./UserCard";
 
 interface IProps {
