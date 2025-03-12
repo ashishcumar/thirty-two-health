@@ -155,6 +155,7 @@ function App() {
                 deleteCard={deleteCard}
                 editCard={editCard}
                 likeCard={likeCard}
+                
               />
             );
           })}

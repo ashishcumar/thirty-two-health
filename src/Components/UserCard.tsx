@@ -40,13 +40,15 @@ function UserCard({
         },
       }}
       style={{
-        minWidth: "350px",
         border: "1px solid",
         borderColor: colorBorder,
         overflow: "hidden",
         display: "grid",
         gridTemplateColumns: "repeat(200px,auto,auto)",
         borderRadius: "4px",
+        flex: "1 1 calc(25% - 16px)",
+        maxWidth: "calc(25% - 16px)",
+        minWidth: "300px",
       }}
     >
       <div
@@ -101,7 +103,7 @@ function UserCard({
           width={"20px"}
           cursor={"pointer"}
           onClick={() => likeCard(cardData)}
-          fill={cardData.isLiked ? "red" : ''}
+          fill={cardData.isLiked ? "red" : ""}
         />
 
         <hr style={{ height: "12px" }} />
